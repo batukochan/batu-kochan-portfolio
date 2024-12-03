@@ -3,6 +3,24 @@
     "experience": "Experience",
     "contact": "Contact",
     "downloadCv": "Download CV",
-    "toggleTheme": "Dark/Light Mode"
-  }
+    "toggleTheme": "Dark/Light Mode",
+    "showcaseTitle": "Hi, I'm ",
+    "showcaseDesc": "I'm a frontend developer with 3 years of experience, focusing on building responsive, modern, and user-centered web applications. I have a passion for crafting seamless digital experiences and continually improving my skills.",
+    "showcaseBulletDesc":"Available for new projects",
+    "infoTitle":"My Journey",
+    "infoDesc": [
+      "I'm a passionate front-end developer specializing in crafting responsive, modern, and user-centric web applications. With a strong focus on visual design and technical performance, I strive to create seamless digital experiences that are both functional and visually appealing.",
+      "My journey in web development began 3 years ago when I discovered my passion for coding. Since then, I've honed my skills in React.js, TypeScript, and other modern front-end technologies. I enjoy taking on challenging projects, continuously learning new frameworks, and staying updated with the latest industry trends.",
+      "As a progressive thinker, I thrive in collaborative environments and enjoy managing projects end-to-end — from conceptualization to deployment. My experience includes leading front-end teams, working on responsive designs, and optimizing performance for diverse projects.",
+      "When I’m not coding, you can find me exploring new technologies, playing the electric guitar, or enjoying outdoor activities. Feel free to connect with me on GitHub or LinkedIn to learn more about my work and interests."
+    ],
+    "quickInfo": [
+      "Electrical Engineer",
+      "3 years frontend experience",
+      "Team leadership",
+      "Tech enthusiast",
+      "Responsive design expertise",
+      "Corporate project experience"
+    ]
+}
   

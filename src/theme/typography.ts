@@ -32,7 +32,7 @@ export type TypographyStyles = {
 const typography: TypographyStyles = {
   [Typography.Heading1Desktop]: {
     fontFamily: inter,
-    fontSize: "60px",
+    fontSize: "64px",
     fontWeight: 700,
     lineHeight: "72px",
     letterSpacing: "0px",
@@ -102,7 +102,7 @@ const typography: TypographyStyles = {
   },
   [Typography.Body1]: {
     fontFamily: inter,
-    fontSize: "18px",
+    fontSize: "20px",
     fontWeight: 400,
     lineHeight: "28px",
     letterSpacing: "0px",
