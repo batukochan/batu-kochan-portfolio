@@ -4,6 +4,7 @@
     "contact": "Contact",
     "downloadCv": "Download CV",
     "toggleTheme": "Dark/Light Mode",
+    "languageChange": "Change Language",
     "showcaseTitle": "Hi, I'm ",
     "showcaseDesc": "I'm a frontend developer with 3 years of experience, focusing on building responsive, modern, and user-centered web applications. I have a passion for crafting seamless digital experiences and continually improving my skills.",
     "showcaseBulletDesc":"Available for new projects",
@@ -21,6 +22,12 @@
       "Tech enthusiast",
       "Responsive design expertise",
       "Corporate project experience"
-    ]
+    ],
+    "footerTag":"Get in touch",
+    "footerInfo":"Let’s connect! Whether you have a project in mind, a question to ask, or just want to say hello, feel free to reach out.",
+    "footerIconsDesc":"You may also find me on these platforms!",
+    "footerCopywrite":"2024 | Coded with care by Batuhan Koçhan",
+    "copiedSuccess":"Copying successful!",
+    "copiedError":"An error occurred while copying!"
 }
   

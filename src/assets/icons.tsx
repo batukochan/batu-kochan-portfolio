@@ -1,4 +1,7 @@
 import { StyledIcon } from "./icon.styles";
+type CopyIconProps = {
+  onClick?: () => void;
+};
 
 export const GithubIcon = () => {
   return (
@@ -88,9 +91,9 @@ export const InboxIcon = () => {
   );
 };
 
-export const CopyIcon = () => {
+export const CopyIcon: React.FC<CopyIconProps> = ({ onClick }) => {
   return (
-    <StyledIcon viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <StyledIcon onClick={onClick} viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M26.6667 10.667H13.3334C11.8607 10.667 10.6667 11.8609 10.6667 13.3337V26.667C10.6667 28.1398 11.8607 29.3337 13.3334 29.3337H26.6667C28.1395 29.3337 29.3334 28.1398 29.3334 26.667V13.3337C29.3334 11.8609 28.1395 10.667 26.6667 10.667Z"
         strokeWidth="2"

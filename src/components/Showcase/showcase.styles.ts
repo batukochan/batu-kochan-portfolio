@@ -25,6 +25,7 @@ export const TextSection = styled.div`
   @media (max-width: 768px) {
     order: 2;
     width: 100%;
+    gap: 32px;
   }
 `;
 export const TextContainer = styled.div`
@@ -52,8 +53,6 @@ export const IconWrapper = styled.div`
 export const SocialIcons = styled.div`
   display: flex;
   gap: 16px;
-  margin-top: 16px;
-
   a {
     color: ${({ theme }) => theme.colors.iconColor};
     transition: color 0.3s ease;

@@ -98,9 +98,9 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
             {t("toggleTheme")}{" "}
             {themeMode === "light" ? <DarkModeIcon /> : <LightModeIcon />}
           </ThemeToggleButton>
-          <LanguageContainer>
-          Dil Seçimi
-          <LanguageToggleButton onClick={toggleLanguage}>
+          <LanguageContainer onClick={toggleLanguage}>
+          {t("languageChange")}
+          <LanguageToggleButton >
             {i18n.language.toUpperCase()}
           </LanguageToggleButton>
           </LanguageContainer>

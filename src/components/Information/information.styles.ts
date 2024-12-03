@@ -14,6 +14,7 @@ export const InformationContainer = styled.section`
     align-items: center;
     gap: 24px;
     padding: 32px 0;
+    border-radius: 32px;
   }
 `;
 
@@ -59,16 +60,17 @@ export const ImageWrapper = styled.div`
 
   @media (max-width: 768px) {
     img {
-      width: 280px;
-      height: 360px;
+      width: 260px;
+      height: 340px;
+      margin-left: 0;
       border: 4px solid ${({ theme }) => theme.colors.gray50};
     }
 
     &::after {
       top: 32px;
-      left: 24px;
-      width: 320px;
-      height: 360px;
+      left: -16px;
+      width: 300px;
+      height: 340px;
     }
   }
 `;

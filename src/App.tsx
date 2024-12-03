@@ -7,6 +7,7 @@ import Header from "./components/Header/header";
 import Showcase from "./components/Showcase/showcase";
 import LinkedinProfileSrc from "./assets/linkedinProfile.jpeg";
 import Information from "./components/Information/information";
+import Footer from "./components/Footer/footer";
 export const App: React.FC = () => {
   const [themeMode, setThemeMode] = useState<"light" | "dark">("dark");
 
@@ -30,6 +31,7 @@ export const App: React.FC = () => {
           ></Showcase>
      <Information></Information>
         </main>
+        <Footer/>
       </ThemeProvider>
     </I18nextProvider>
   );
