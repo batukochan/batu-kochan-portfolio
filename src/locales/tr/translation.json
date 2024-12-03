@@ -4,6 +4,7 @@
     "contact": "İletişim",
     "downloadCv": "Özgeçmiş İndir",
     "toggleTheme": "Koyu/Açık Mod",
+    "languageChange": "Dil Seçiniz",
     "showcaseTitle": "Selam, Ben ",
     "showcaseDesc": "3 yıllık deneyime sahip bir frontend geliştiriciyim. Responsive, modern ve kullanıcı odaklı web uygulamaları geliştirmeye odaklanıyorum. Kesintisiz dijital deneyimler oluşturma tutkusu ve sürekli kendimi geliştirme hedefiyle çalışıyorum.",
     "showcaseBulletDesc":"Yeni projelere açık",
@@ -21,6 +22,14 @@
       "Yeni teknolojilere meraklı",
       "Responsive tasarım uzmanlığı",
       "Kurumsal proje tecrübesi"
-    ]
+    ],
+    "footerTag":"İletişim",
+    "footerInfo":"Bağlantıda kalalım! Aklınızda bir proje varsa, bir sorunuz varsa ya da sadece merhaba demek istiyorsanız, bana ulaşmaktan çekinmeyin.",
+    "footerIconsDesc":"Beni bu platformlarda da bulabilirsiniz!",
+    "footerCopywrite":"2024 | Özenle kodlandı: Batuhan Koçhan",
+    "copiedSuccess":"Kopyalama işlemi başarılı!",
+    "copiedError":"Kopyalama esnasında bir hata oluştu!"
+
+
 }
   

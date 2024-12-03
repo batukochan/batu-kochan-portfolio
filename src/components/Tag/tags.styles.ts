@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const StyledTag = styled.div<{ variant: "default" | "dark" }>`
   display: inline-block;
-  width:min-content;
   padding: 4px 20px;
   border-radius: 12px;
   font-size: ${({ theme }) => theme.typography.Body3.fontSize};
