@@ -3,6 +3,24 @@
     "experience": "İş Tecrübesi",
     "contact": "İletişim",
     "downloadCv": "Özgeçmiş İndir",
-    "toggleTheme": "Koyu/Açık Mod"
-  }
+    "toggleTheme": "Koyu/Açık Mod",
+    "showcaseTitle": "Selam, Ben ",
+    "showcaseDesc": "3 yıllık deneyime sahip bir frontend geliştiriciyim. Responsive, modern ve kullanıcı odaklı web uygulamaları geliştirmeye odaklanıyorum. Kesintisiz dijital deneyimler oluşturma tutkusu ve sürekli kendimi geliştirme hedefiyle çalışıyorum.",
+    "showcaseBulletDesc":"Yeni projelere açık",
+    "infoTitle":"Benim Yolculuğum",
+    "infoDesc": [
+      "Kullanıcı odaklı, modern ve responsive web uygulamaları geliştirmeye odaklanmış tutkulu bir ön yüz geliştiricisiyim. Görsel tasarım ve teknik performansa büyük önem vererek, hem işlevsel hem de estetik dijital deneyimler oluşturmayı hedefliyorum.",
+      "Web geliştirme yolculuğum 3 yıl önce kodlama tutkumla başladı. O zamandan beri React.js, TypeScript ve diğer modern ön yüz teknolojilerinde uzmanlaştım. Zorlu projeler üstlenmeyi, yeni frameworkler öğrenmeyi ve sektördeki en son trendleri takip etmeyi seviyorum.",
+      "İleri görüşlü bir düşünce yapısına sahibim ve projeleri fikir aşamasından dağıtıma kadar yönetmekten keyif alıyorum. Deneyimlerim arasında ön yüz ekiplerini yönetmek, responsive tasarımlar üzerinde çalışmak ve çeşitli projeler için performansı optimize etmek bulunuyor.",
+      "Kod yazmadığım zamanlarda, yeni teknolojiler keşfetmek, elektro gitar çalmak veya açık hava etkinliklerinin keyfini çıkarmakla meşgulüm. Çalışmalarım ve ilgi alanlarım hakkında daha fazla bilgi edinmek için GitHub veya LinkedIn üzerinden benimle iletişime geçebilirsiniz."
+    ],
+    "quickInfo": [
+      "Elektrik-Elektronik Mühendisi",
+      "3 yıl frontend deneyimi",
+      "Takım liderliği",
+      "Yeni teknolojilere meraklı",
+      "Responsive tasarım uzmanlığı",
+      "Kurumsal proje tecrübesi"
+    ]
+}
   

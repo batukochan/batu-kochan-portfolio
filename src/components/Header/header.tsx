@@ -29,6 +29,7 @@ import { useTranslation } from "react-i18next";
 const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
+  
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
   };
