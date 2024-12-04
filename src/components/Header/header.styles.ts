@@ -23,6 +23,7 @@ export const Logo = styled.div`
   font-weight: ${({ theme }) => theme.typography[Typography.Body2].fontWeight};
   font-family: ${({ theme }) => theme.typography[Typography.Body2].fontFamily};
   color: ${({ theme }) => theme.colors.text};
+  cursor:pointer;
 `;
 
 export const Nav = styled.nav`
@@ -52,7 +53,7 @@ export const NavItem = styled.a`
   font-size: ${({ theme }) => theme.typography[Typography.Body2].fontSize};
   font-weight: ${({ theme }) => theme.typography[Typography.Body2].fontWeight};
   transition: color 0.3s ease;
-
+  cursor: pointer;
   &:hover {
     color: ${({ theme }) => theme.colors.primary};
   }

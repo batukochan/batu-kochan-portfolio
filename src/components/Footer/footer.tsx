@@ -39,7 +39,7 @@ const Footer: React.FC<FooterProps> = () => {
       });
   };
   return (
-    <StyledFooter>
+    <StyledFooter id="contact">
       <ToastContainer />
       <FooterContainer>
         <FooterItem01 className="c-item-01">

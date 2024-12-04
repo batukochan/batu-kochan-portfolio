@@ -8,6 +8,8 @@ import Showcase from "./components/Showcase/showcase";
 import LinkedinProfileSrc from "./assets/linkedinProfile.jpeg";
 import Information from "./components/Information/information";
 import Footer from "./components/Footer/footer";
+import Skills from "./components/Skills/skills";
+import Experience from "./components/Experience/experience";
 export const App: React.FC = () => {
   const [themeMode, setThemeMode] = useState<"light" | "dark">("dark");
 
@@ -29,9 +31,11 @@ export const App: React.FC = () => {
             location="İstanbul"
             avatar={LinkedinProfileSrc}
           ></Showcase>
-     <Information></Information>
+          <Information/>
+          <Skills/>
+          <Experience/>
         </main>
-        <Footer/>
+        <Footer />
       </ThemeProvider>
     </I18nextProvider>
   );

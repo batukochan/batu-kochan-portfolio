@@ -7,7 +7,7 @@ import { lightColors, darkColors } from "./colors";
 export interface Theme {
   typography: typeof typography;
   fonts: typeof fonts;
-  colors: typeof lightColors; // Light ve dark aynı tipte olduğu için
+  colors: typeof lightColors;
 }
 
 export const lightTheme: Theme = {

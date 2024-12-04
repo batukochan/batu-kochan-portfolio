@@ -1,4 +1,4 @@
-export interface FooterProps {
+export interface SkillsProps {
     children?: React.ReactNode;
     id?: string;
   }

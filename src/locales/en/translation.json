@@ -1,5 +1,6 @@
 {
     "about": "About",
+    "skills": "Skills",
     "experience": "Experience",
     "contact": "Contact",
     "downloadCv": "Download CV",
@@ -28,6 +29,96 @@
     "footerIconsDesc":"You may also find me on these platforms!",
     "footerCopywrite":"2024 | Coded with care by Batuhan Koçhan",
     "copiedSuccess":"Copying successful!",
-    "copiedError":"An error occurred while copying!"
+    "copiedError":"An error occurred while copying!",
+    "skillsTag":"Skills",
+    "skillsDesc":"Here are the skills, tools, and technologies I’m great at",
+    "experienceTag":"Experience",
+    "experienceDesc":"Here are the experiences and projects I’ve worked on",
+      "experienceObj": {
+        "tag": "Experience",
+        "description": "Here are the experiences and projects I’ve worked on.",
+        "tsk": {
+  "company": "Turkish Armed Forces",
+  "role": "Conscription Soldier",
+  "date": "21 September 2024 - 21 October 2024",
+  "categories": {}
+},
+        "feux": {
+          "company": "Feux Digital",
+          "role": "Frontend Developer",
+          "date": "14 Feb 2022 - 16 Sep 2024",
+          "categories": {
+            "management": {
+              "title": "Project Management and Communication",
+              "points": [
+                "Led frontend development for Kale.com.tr, Kalekim, and Bi’Boya.",
+                "Collaborated with backend teams to ensure timely project delivery."
+              ]
+            },
+            "projects": {
+              "title": "Projects and Responsibilities",
+              "points": [
+                "TEMA Vakfı: Developed a responsive and eco-friendly website using JavaScript, Sass, and Umbraco.",
+                "Türkiye Bağımlılıkla Mücadele Vakfı: Delivered a user-friendly interface for awareness.",
+                "Kontrolmatik Technologies: Built an interactive platform for global projects.",
+                "FibaBank: Supported the AlışGidiş project with JavaScript and Sass.",
+                "Bi’Boya: Participated in debugging and new development processes for the existing project.",
+                "Kalekim: Delivered a dynamic and performance-oriented web solution tailored to corporate needs.",
+                "Kale Holding: Updated and managed large-scale corporate websites using JavaScript and Sass."
+              ]
+            },
+            "technology": {
+              "title": "Technology and Development",
+              "points": [
+                "Modern tools and technologies: JavaScript, React.js, Typescript, Sass, Umbraco, C#, Styled Components, Material UI."
+              ]
+            },
+            "teamwork": {
+              "title": "Teamwork and Leadership",
+              "points": [
+                "Acted as a bridge between technical teams to enhance communication and collaboration.",
+                "Prepared interactive documentation during project processes to improve time management."
+              ]
+            }
+          }
+        },
+        "kocsistem": {
+          "company": "KoçSistem",
+          "role": "Frontend Developer",
+          "date": "1 Jul 2022 - 15 Nov 2023",
+          "categories": {
+            "management": {
+              "title": "Project Management and Communication",
+              "points": [
+                "Worked as an outsourced frontend developer for internal and external application projects using React.js.",
+                "Provided solutions for design gaps, accelerating project processes."
+              ]
+            },
+            "projects": {
+              "title": "Projects and Responsibilities",
+              "points": [
+                "Workplace: Developed the frontend of a corporate social networking platform.",
+                "Peoplise: Contributed to the frontend development of a high-functionality recruitment platform.",
+                "Koç Kariyerim: Worked on additional frontend development for the career management platform."
+              ]
+            },
+            "technology": {
+              "title": "Technology and Development",
+              "points": [
+                "Modern tools and technologies used during development: React.js, Context API, TypeScript, Material UI, i18next."
+              ]
+            },
+            "teamwork": {
+              "title": "Teamwork and Collaboration",
+              "points": [
+                "Actively collaborated with backend teams for integrations and customer-focused solutions.",
+                "Coordinated with design teams to quickly address and resolve deficiencies."
+              ]
+            }
+          }
+        }
+      },
+      "militaryServiceDescription":"I completed my short-term military service in İzmir Karabağlar."
+    
 }
   

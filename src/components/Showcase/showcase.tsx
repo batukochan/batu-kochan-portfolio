@@ -29,7 +29,7 @@ const Showcase: React.FC<ShowcaseProps> = ({
   const { t } = useTranslation();
 
   return (
-    <ShowcaseContainer>
+    <ShowcaseContainer id="showcase">
       <TextSection>
         <TextContainer>
           <Text
