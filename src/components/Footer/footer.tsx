@@ -112,8 +112,8 @@ const Footer: React.FC<FooterProps> = () => {
       <PreFooter className="c-item-03">
         <CopyrightIcon />
         <Text
-          desktopTypography={Typography.Body1}
-          mobileTypography={Typography.Body2}
+          desktopTypography={Typography.Body2}
+          mobileTypography={Typography.Body3}
           color="gray600"
         >
           {t("footerCopywrite")}
