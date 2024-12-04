@@ -25,11 +25,12 @@ import {
   LightModeIcon,
 } from "../../assets/icons.tsx";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-scroll";
 
 const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
-  
+
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
   };
@@ -48,14 +49,55 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
       <HeaderContainer>
         {!isMenuOpen && (
           <>
-            <Logo>BK</Logo>
+            <Logo>
+            <Link to="showcase" smooth={true} duration={500} onClick={closeMenu}>
+              BK
+            </Link>
+            </Logo>
             <HamburgerMenu onClick={toggleMenu} aria-label="Open Menu">
-              <HamburgerIcon/>
+              <HamburgerIcon />
             </HamburgerMenu>
             <Nav>
-              <NavItem href="#about"> {t("about")}</NavItem>
-              <NavItem href="#work"> {t("experience")}</NavItem>
-              <NavItem href="#contact"> {t("contact")}</NavItem>
+              <NavItem>
+                <Link
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  onClick={closeMenu}
+                >
+                  {t("about")}
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link
+                  to="skills"
+                  smooth={true}
+                  duration={500}
+                  onClick={closeMenu}
+                >
+                  {t("skills")}
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link
+                  to="experience"
+                  smooth={true}
+                  duration={500}
+                  onClick={closeMenu}
+                >
+                  {t("experience")}
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  onClick={closeMenu}
+                >
+                  {t("contact")}
+                </Link>
+              </NavItem>
             </Nav>
             <ActionGroup>
               <ThemeToggleButton onClick={toggleTheme}>
@@ -64,7 +106,7 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
               <LanguageToggleButton onClick={toggleLanguage}>
                 {i18n.language.toUpperCase()}
               </LanguageToggleButton>
-              <Button isDownload href="/path-to-cv.pdf" variant="default">
+              <Button isDownload href="/batu-kochan-cv.pdf" variant="default">
                 {t("downloadCv")}
               </Button>
             </ActionGroup>
@@ -75,21 +117,41 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
       <MobileMenuOverlay isOpen={isMenuOpen} onClick={closeMenu} />
       <MobileMenu $isOpen={isMenuOpen}>
         <MobileMenuHeader>
-          <Logo>BK</Logo>
+          <Logo>
+            <Link to="showcase" smooth={true} duration={500} onClick={closeMenu}>
+              BK
+            </Link>
+          </Logo>
           <CloseMenuButton onClick={closeMenu} aria-label="Close Menu">
             <CloseIcon></CloseIcon>
           </CloseMenuButton>
         </MobileMenuHeader>
 
         <MobileMenuContent>
-          <NavItem href="#about" onClick={closeMenu}>
-            {t("about")}
+          <NavItem>
+            <Link to="about" smooth={true} duration={500} onClick={closeMenu}>
+              {t("about")}
+            </Link>
           </NavItem>
-          <NavItem href="#work" onClick={closeMenu}>
-            {t("experience")}
+          <NavItem>
+            <Link to="skills" smooth={true} duration={500} onClick={closeMenu}>
+              {t("skills")}
+            </Link>
           </NavItem>
-          <NavItem href="#contact" onClick={closeMenu}>
-            {t("contact")}
+          <NavItem>
+            <Link
+              to="experience"
+              smooth={true}
+              duration={500}
+              onClick={closeMenu}
+            >
+              {t("experience")}
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link to="contact" smooth={true} duration={500} onClick={closeMenu}>
+              {t("contact")}
+            </Link>
           </NavItem>
         </MobileMenuContent>
 
@@ -99,13 +161,13 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
             {themeMode === "light" ? <DarkModeIcon /> : <LightModeIcon />}
           </ThemeToggleButton>
           <LanguageContainer onClick={toggleLanguage}>
-          {t("languageChange")}
-          <LanguageToggleButton >
-            {i18n.language.toUpperCase()}
-          </LanguageToggleButton>
+            {t("languageChange")}
+            <LanguageToggleButton>
+              {i18n.language.toUpperCase()}
+            </LanguageToggleButton>
           </LanguageContainer>
-         
-          <Button isDownload href="/path-to-cv.pdf" variant="default">
+
+          <Button isDownload href="/batu-kochan-cv.pdf" variant="default">
             {t("downloadCv")}
           </Button>
         </MobileMenuFooter>

@@ -20,7 +20,7 @@ const Information: React.FC<InformationProps> = () => {
   const quickInfo = t("quickInfo", { returnObjects: true }) as string[];
 
   return (
-    <InformationContainer>
+    <InformationContainer id="about">
       <Tag> {t("about")}</Tag>
       <InformationItem>
         <ImageWrapper>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledFooter = styled.div`
+export const StyledFooter = styled.section`
   display: block;
   color: ${({ theme }) => theme.colors.text};
   background-color: ${({ theme }) => theme.colors.background};
