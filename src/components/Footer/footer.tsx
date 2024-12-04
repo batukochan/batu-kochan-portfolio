@@ -59,8 +59,8 @@ const Footer: React.FC<FooterProps> = () => {
               <InboxIcon />
             </a>
             <Text
-              desktopTypography={Typography.Heading2Desktop}
-              mobileTypography={Typography.Heading3Mobile}
+              desktopTypography={Typography.Heading3Desktop}
+              mobileTypography={Typography.Body2}
             >
               batukochan@icloud.com
             </Text>
@@ -73,8 +73,8 @@ const Footer: React.FC<FooterProps> = () => {
               <PhoneIcon />
             </a>
             <Text
-              desktopTypography={Typography.Heading2Desktop}
-              mobileTypography={Typography.Heading3Mobile}
+              desktopTypography={Typography.Heading3Desktop}
+              mobileTypography={Typography.Body2}
             >
               05340326426
             </Text>
