@@ -116,8 +116,8 @@ const typography: TypographyStyles = {
   },
   [Typography.Body3]: {
     fontFamily: inter,
-    fontSize: "14px",
-    fontWeight: 500,
+    fontSize: "12px",
+    fontWeight: 400,
     lineHeight: "20px",
     letterSpacing: "0px",
   },
