@@ -73,13 +73,14 @@ const Showcase: React.FC<ShowcaseProps> = ({
             href="https://github.com/batukochan"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="github profile"
           >
             <GithubIcon />
           </a>
-          <a href="tel:+905340326426">
+          <a href="tel:+905340326426" aria-label="phone number">
             <PhoneIcon />
           </a>
-          <a href="mailto:batukochan@icloud.com">
+          <a href="mailto:batukochan@icloud.com" aria-label="email address">
             <InboxIcon />
           </a>
           <a
