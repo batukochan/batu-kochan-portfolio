@@ -55,7 +55,7 @@ const Footer: React.FC<FooterProps> = () => {
 
         <FooterItem01 className="c-item-02">
           <FooterUnit01>
-            <a href="mailto:batukochan@icloud.com">
+            <a href="mailto:batukochan@icloud.com" aria-label="email address">
               <InboxIcon />
             </a>
             <Text
@@ -69,7 +69,7 @@ const Footer: React.FC<FooterProps> = () => {
             />
           </FooterUnit01>
           <FooterUnit01>
-            <a href="tel:+905340326426">
+            <a href="tel:+905340326426" aria-label="phone number">
               <PhoneIcon />
             </a>
             <Text
@@ -96,6 +96,7 @@ const Footer: React.FC<FooterProps> = () => {
               href="https://github.com/batukochan"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="github profile"
             >
               <GithubIcon />
             </a>
@@ -103,6 +104,7 @@ const Footer: React.FC<FooterProps> = () => {
               href="https://www.linkedin.com/in/batukochan"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="linkedin profile"
             >
               <LinkdinIcon />
             </a>
