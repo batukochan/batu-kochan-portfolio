@@ -5,7 +5,7 @@ import ThemeProvider from "./theme";
 import GlobalStyles from "./theme/GlobalStyles";
 import Header from "./components/Header/header";
 import Showcase from "./components/Showcase/showcase";
-import LinkedinProfileSrc from "./assets/linkedinProfile.jpeg";
+import LinkedinProfileSrc from "./assets/linkedinPhoto.webp";
 import Information from "./components/Information/information";
 import Footer from "./components/Footer/footer";
 import Skills from "./components/Skills/skills";
