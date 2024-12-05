@@ -24,7 +24,7 @@ const Information: React.FC<InformationProps> = () => {
       <Tag> {t("about")}</Tag>
       <InformationItem>
         <ImageWrapper>
-          <img src={InformationPhoto} alt="Personal" />
+          <img src={InformationPhoto} alt="Personal" loading="lazy"/>
         </ImageWrapper>
         <ContentWrapper>
           <Text
