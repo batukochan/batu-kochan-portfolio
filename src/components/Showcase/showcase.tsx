@@ -92,7 +92,7 @@ const Showcase: React.FC<ShowcaseProps> = ({
         </SocialIcons>
       </TextSection>
       <AvatarWrapper>
-        <img src={avatar} alt={name} />
+        <img src={avatar} alt={name} loading="lazy"/>
       </AvatarWrapper>
     </ShowcaseContainer>
   );
