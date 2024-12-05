@@ -504,7 +504,7 @@ export const SassIcon = () => {
 
 export const TailwindIcon = () => {
   return (
-    <svg width="106" height="64" viewBox="0 0 106 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="64" height="64" viewBox="0 0 106 64" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0_316_324)">
     <mask id="mask0_316_324" maskUnits="userSpaceOnUse" x="0" y="0" width="106" height="63">
     <path d="M0.974121 0H105.701V62.8364H0.974121V0Z" fill="white"/>
