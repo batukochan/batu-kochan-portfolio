@@ -12,7 +12,7 @@ import { InformationProps } from "./types";
 import Text from "../Text/text";
 import Tag from "../Tag/tags";
 import { Typography } from "../../theme/typography";
-import InformationPhoto from "../../assets/infoPhoto.jpeg";
+import InformationPhoto from "../../assets/infoPhoto.webp";
 
 const Information: React.FC<InformationProps> = () => {
   const { t } = useTranslation();
