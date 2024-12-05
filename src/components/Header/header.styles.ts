@@ -23,7 +23,7 @@ export const Logo = styled.div`
   font-weight: ${({ theme }) => theme.typography[Typography.Body2].fontWeight};
   font-family: ${({ theme }) => theme.typography[Typography.Body2].fontFamily};
   color: ${({ theme }) => theme.colors.text};
-  cursor:pointer;
+  cursor: pointer;
 `;
 
 export const Nav = styled.nav`
@@ -47,13 +47,18 @@ export const Nav = styled.nav`
   }
 `;
 
-export const NavItem = styled.a`
+export const NavItem = styled.div`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.text};
   font-size: ${({ theme }) => theme.typography[Typography.Body2].fontSize};
   font-weight: ${({ theme }) => theme.typography[Typography.Body2].fontWeight};
   transition: color 0.3s ease;
   cursor: pointer;
+  > a {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+  }
   &:hover {
     color: ${({ theme }) => theme.colors.primary};
   }
@@ -89,7 +94,7 @@ export const HamburgerMenu = styled.button`
   background: none;
   border: none;
   cursor: pointer;
-
+  padding: 0;
   @media (max-width: 768px) {
     display: block;
     font-size: ${({ theme }) => theme.typography[Typography.Body2].fontSize};
