@@ -1,3 +1,4 @@
+import React from "react";
 import { StyledIcon } from "./icon.styles";
 type CopyIconProps = {
   onClick?: () => void;

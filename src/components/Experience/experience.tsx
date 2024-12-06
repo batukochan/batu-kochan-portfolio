@@ -21,7 +21,7 @@ type Category = {
   points: string[];
 };
 
-type Experience = {
+type ExperienceObjectTypes = {
   company: string;
   role: string;
   date: string;
@@ -31,7 +31,7 @@ type Experience = {
 const Experience: React.FC<ExperienceProps> = () => {
   const { t } = useTranslation();
 
-  const experiences: Experience[] = [
+  const experiences: ExperienceObjectTypes[] = [
     {
       company: t("experienceObj.tsk.company"),
       role: t("experienceObj.tsk.role"),
