@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { I18nextProvider, useTranslation } from "react-i18next";
 import i18n from "./i18n";
-import ThemeProvider from "./theme";
+import ThemeProvider from "./theme/ThemeProvider.tsx";
 import GlobalStyles from "./theme/GlobalStyles";
 import Header from "./components/Header/header";
 import Showcase from "./components/Showcase/showcase";
@@ -10,6 +10,7 @@ import Information from "./components/Information/information";
 import Footer from "./components/Footer/footer";
 import Skills from "./components/Skills/skills";
 import Experience from "./components/Experience/experience";
+
 export const App: React.FC = () => {
   const [themeMode, setThemeMode] = useState<"light" | "dark">("dark");
 
@@ -31,9 +32,9 @@ export const App: React.FC = () => {
             location="İstanbul"
             avatar={LinkedinProfileSrc}
           ></Showcase>
-          <Information/>
-          <Skills/>
-          <Experience/>
+          <Information />
+          <Skills />
+          <Experience />
         </main>
         <Footer />
       </ThemeProvider>
