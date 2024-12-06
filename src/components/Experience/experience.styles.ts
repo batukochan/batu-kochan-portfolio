@@ -7,7 +7,9 @@ export const StyledExperience = styled.section`
   align-items: center;
   gap: 48px;
   background-color: ${({ theme }) => theme.colors.gray50};
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
   padding: 96px 0px;
   border-radius: 48px;
   @media (max-width: 768px) {

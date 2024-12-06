@@ -1,125 +1,122 @@
 {
-    "about": "Hakkımda",
-    "skills": "Yetenekler",
-    "experience": "İş Tecrübesi",
-    "contact": "İletişim",
-    "downloadCv": "Özgeçmiş İndir",
-    "toggleTheme": "Koyu/Açık Mod",
-    "languageChange": "Dil Seçiniz",
-    "showcaseTitle": "Selam, Ben ",
-    "showcaseDesc": "3 yıllık deneyime sahip bir frontend geliştiriciyim. Responsive, modern ve kullanıcı odaklı web uygulamaları geliştirmeye odaklanıyorum. Kesintisiz dijital deneyimler oluşturma tutkusu ve sürekli kendimi geliştirme hedefiyle çalışıyorum.",
-    "showcaseBulletDesc":"Yeni projelere açık",
-    "infoTitle":"Benim Yolculuğum",
-    "infoDesc": [
-      "Kullanıcı odaklı, modern ve responsive web uygulamaları geliştirmeye odaklanmış tutkulu bir ön yüz geliştiricisiyim. Görsel tasarım ve teknik performansa büyük önem vererek, hem işlevsel hem de estetik dijital deneyimler oluşturmayı hedefliyorum.",
-      "Web geliştirme yolculuğum 3 yıl önce kodlama tutkumla başladı. O zamandan beri React.js, TypeScript ve diğer modern ön yüz teknolojilerinde uzmanlaştım. Zorlu projeler üstlenmeyi, yeni frameworkler öğrenmeyi ve sektördeki en son trendleri takip etmeyi seviyorum.",
-      "İleri görüşlü bir düşünce yapısına sahibim ve projeleri fikir aşamasından dağıtıma kadar yönetmekten keyif alıyorum. Deneyimlerim arasında ön yüz ekiplerini yönetmek, responsive tasarımlar üzerinde çalışmak ve çeşitli projeler için performansı optimize etmek bulunuyor.",
-      "Kod yazmadığım zamanlarda, yeni teknolojiler keşfetmek, elektro gitar çalmak veya açık hava etkinliklerinin keyfini çıkarmakla meşgulüm. Çalışmalarım ve ilgi alanlarım hakkında daha fazla bilgi edinmek için GitHub veya LinkedIn üzerinden benimle iletişime geçebilirsiniz."
-    ],
-    "quickInfo": [
-      "Elektrik-Elektronik Mühendisi",
-      "3 yıl frontend deneyimi",
-      "Takım liderliği",
-      "Yeni teknolojilere meraklı",
-      "Responsive tasarım uzmanlığı",
-      "Kurumsal proje tecrübesi"
-    ],
-    "footerTag":"İletişim",
-    "footerInfo":"Bağlantıda kalalım! Aklınızda bir proje varsa, bir sorunuz varsa ya da sadece merhaba demek istiyorsanız, bana ulaşmaktan çekinmeyin.",
-    "footerIconsDesc":"Beni bu platformlarda da bulabilirsiniz!",
-    "footerCopywrite":"2024 | Özenle kodlandı: Batuhan Koçhan",
-    "copiedSuccess":"Kopyalama işlemi başarılı!",
-    "copiedError":"Kopyalama esnasında bir hata oluştu!",
-    "skillsTag":"Yetenekler",
-    "skillsDesc":"İşte iyi olduğum beceriler, araçlar ve teknolojiler",
-    "experienceTag":"Deneyim",
-    "experienceDesc":"İşte üzerinde çalıştığım deneyimler ve projeler.",
-    "experienceObj": {
-        "tag": "İş Tecrübesi",
-        "description": "İşte üzerinde çalıştığım deneyimler ve projeler.",
-        "tsk": {
-          "company": "Kariyer Arası",
-          "role": "Bedelli Asker Hizmeti",
-          "date": "21 Eylül 2024 - 21 Ekim 2024",
-  "categories": {}
+  "about": "Hakkımda",
+  "skills": "Yetenekler",
+  "experience": "İş Tecrübesi",
+  "contact": "İletişim",
+  "downloadCv": "Özgeçmiş İndir",
+  "toggleTheme": "Koyu/Açık Mod",
+  "languageChange": "Dil Seçiniz",
+  "showcaseTitle": "Selam, Ben ",
+  "showcaseDesc": "3 yıllık deneyime sahip bir frontend geliştiriciyim. Responsive, modern ve kullanıcı odaklı web uygulamaları geliştirmeye odaklanıyorum. Kesintisiz dijital deneyimler oluşturma tutkusu ve sürekli kendimi geliştirme hedefiyle çalışıyorum.",
+  "showcaseBulletDesc": "Yeni projelere açık",
+  "infoTitle": "Benim Yolculuğum",
+  "infoDesc": [
+    "Kullanıcı odaklı, modern ve responsive web uygulamaları geliştirmeye odaklanmış tutkulu bir ön yüz geliştiricisiyim. Görsel tasarım ve teknik performansa büyük önem vererek, hem işlevsel hem de estetik dijital deneyimler oluşturmayı hedefliyorum.",
+    "Web geliştirme yolculuğum 3 yıl önce kodlama tutkumla başladı. O zamandan beri React.js, TypeScript ve diğer modern ön yüz teknolojilerinde uzmanlaştım. Zorlu projeler üstlenmeyi, yeni frameworkler öğrenmeyi ve sektördeki en son trendleri takip etmeyi seviyorum.",
+    "İleri görüşlü bir düşünce yapısına sahibim ve projeleri fikir aşamasından dağıtıma kadar yönetmekten keyif alıyorum. Deneyimlerim arasında ön yüz ekiplerini yönetmek, responsive tasarımlar üzerinde çalışmak ve çeşitli projeler için performansı optimize etmek bulunuyor.",
+    "Kod yazmadığım zamanlarda, yeni teknolojiler keşfetmek, elektro gitar çalmak veya açık hava etkinliklerinin keyfini çıkarmakla meşgulüm. Çalışmalarım ve ilgi alanlarım hakkında daha fazla bilgi edinmek için GitHub veya LinkedIn üzerinden benimle iletişime geçebilirsiniz."
+  ],
+  "quickInfo": [
+    "Elektrik-Elektronik Mühendisi",
+    "3 yıl frontend deneyimi",
+    "Takım liderliği",
+    "Yeni teknolojilere meraklı",
+    "Responsive tasarım uzmanlığı",
+    "Kurumsal proje tecrübesi"
+  ],
+  "footerTag": "İletişim",
+  "footerInfo": "Bağlantıda kalalım! Aklınızda bir proje varsa, bir sorunuz varsa ya da sadece merhaba demek istiyorsanız, bana ulaşmaktan çekinmeyin.",
+  "footerIconsDesc": "Beni bu platformlarda da bulabilirsiniz!",
+  "footerCopywrite": "2024 | Özenle kodlandı: Batuhan Koçhan",
+  "copiedSuccess": "Kopyalama işlemi başarılı!",
+  "copiedError": "Kopyalama esnasında bir hata oluştu!",
+  "skillsTag": "Yetenekler",
+  "skillsDesc": "İşte iyi olduğum beceriler, araçlar ve teknolojiler",
+  "experienceTag": "Deneyim",
+  "experienceDesc": "İşte üzerinde çalıştığım deneyimler ve projeler.",
+  "experienceObj": {
+    "tag": "İş Tecrübesi",
+    "description": "İşte üzerinde çalıştığım deneyimler ve projeler.",
+    "tsk": {
+      "company": "Kariyer Arası",
+      "role": "Bedelli Asker Hizmeti",
+      "date": "21 Eylül 2024 - 21 Ekim 2024",
+      "categories": {}
+    },
+    "feux": {
+      "company": "Feux Digital",
+      "role": "Frontend Geliştirici",
+      "date": "14 Şubat 2022 - 16 Eylül 2024",
+      "categories": {
+        "management": {
+          "title": "Proje Yönetimi ve İletişim",
+          "points": [
+            "Kale.com.tr, Kalekim ve Bi’Boya projelerinde frontend lead olarak yeni müşteri talepleri ve geliştirmelerde liderlik yaptım.",
+            "Farklı backend ekipleriyle entegre çalışarak projelerin zamanında teslimini sağladım."
+          ]
         },
-        "feux": {
-          "company": "Feux Digital",
-          "role": "Frontend Geliştirici",
-          "date": "14 Şubat 2022 - 16 Eylül 2024",
-          "categories": {
-            "management": {
-              "title": "Proje Yönetimi ve İletişim",
-              "points": [
-                "Kale.com.tr, Kalekim ve Bi’Boya projelerinde frontend lead olarak yeni müşteri talepleri ve geliştirmelerde liderlik yaptım.",
-                "Farklı backend ekipleriyle entegre çalışarak projelerin zamanında teslimini sağladım."
-              ]
-            },
-            "projects": {
-              "title": "Projeler ve Sorumluluklar",
-              "points": [
-                "TEMA Vakfı: JavaScript, Sass ve Umbraco kullanarak çevre dostu içeriklerin sergilendiği kurumsal bir web sitesi geliştirdim.",
-                "Türkiye Bağımlılıkla Mücadele Vakfı: Bağımlılık farkındalığını artıran bir platform için modern ve kullanıcı dostu bir ön yüz tasarımı sundum.",
-                "Kontrolmatik Technologies: Şirketin global projelerini tanıtmak için etkileşimli bir web platformu geliştirdim.",
-                "FibaBank: Kısa bir süre JavaScript ve Sass kullanarak AlışGidiş projesi için destekte bulundum.",
-                "Bi’Boya: Hali hazırda yapılmış olan projenin hata çözme ve yeni geliştirme süreçlerinde yer aldım.",
-                "Kalekim: Kurumsal ihtiyaçlara yönelik dinamik ve performans odaklı bir web çözümü oluşturuldu.",
-                "Kale Holding: JavaScript ve Sass kullanarak büyük ölçekli kurumsal web sitelerinin güncellenmesi ve yönetimi."
-              ]
-            },
-            "technology": {
-              "title": "Teknoloji ve Geliştirme",
-              "points": [
-                "Modern araçlar ve teknolojiler: JavaScript, React.js, Typescript, Sass, Umbraco, C#, Styled Components, Material UI."
-              ]
-            },
-            "teamwork": {
-              "title": "Ekip Çalışması ve Liderlik",
-              "points": [
-                "Teknik ekipler arasında köprü görevi görerek iletişim ve iş birliğini güçlendirdim.",
-                "Proje süreçlerinde interaktif dokümantasyon hazırlayarak zaman yönetimini iyileştirdim."
-              ]
-            }
-          }
+        "projects": {
+          "title": "Projeler ve Sorumluluklar",
+          "points": [
+            "TEMA Vakfı: JavaScript, Sass ve Umbraco kullanarak çevre dostu içeriklerin sergilendiği kurumsal bir web sitesi geliştirdim.",
+            "Türkiye Bağımlılıkla Mücadele Vakfı: Bağımlılık farkındalığını artıran bir platform için modern ve kullanıcı dostu bir ön yüz tasarımı sundum.",
+            "Kontrolmatik Technologies: Şirketin global projelerini tanıtmak için etkileşimli bir web platformu geliştirdim.",
+            "FibaBank: Kısa bir süre JavaScript ve Sass kullanarak AlışGidiş projesi için destekte bulundum.",
+            "Bi’Boya: Hali hazırda yapılmış olan projenin hata çözme ve yeni geliştirme süreçlerinde yer aldım.",
+            "Kalekim: Kurumsal ihtiyaçlara yönelik dinamik ve performans odaklı bir web çözümü oluşturuldu.",
+            "Kale Holding: JavaScript ve Sass kullanarak büyük ölçekli kurumsal web sitelerinin güncellenmesi ve yönetimi."
+          ]
         },
-        "kocsistem": {
-          "company": "KoçSistem",
-          "role": "Frontend Geliştirici",
-          "date": "1 Temmuz 2022 - 15 Kasım 2023",
-          "categories": {
-            "management": {
-              "title": "Proje Yönetimi ve İletişim",
-              "points": [
-                "React.js kullanarak şirket içi ve dışı uygulama projelerinde outsourced frontend developer olarak görev aldım.",
-                "Farklı ekiplerle uyumlu çalışarak tasarım eksikliklerini gideren ve proje süreçlerini hızlandıran çözümler geliştirdim."
-              ]
-            },
-            "projects": {
-              "title": "Projeler ve Sorumluluklar",
-              "points": [
-                "Workplace: Şirket içi kullanım için geliştirilen sosyal ağ benzeri bir platformun ön yüz geliştirmesini üstlendim.",
-                "Peoplise: İnsan kaynakları işe alım süreçlerini destekleyen, yüksek işlevsellik sunan bir platformun ön yüz geliştirmesine katkıda bulundum.",
-                "Koç Kariyerim: İş başvuruları ve kariyer yönetimi için geliştirilen bir platformun ek geliştirmeleri için ön yüz çalışmaları yaptım."
-              ]
-            },
-            "technology": {
-              "title": "Teknoloji ve Geliştirme",
-              "points": [
-                "Geliştirme sürecinde kullanılan modern araçlar: React.js, Context API, TypeScript, Material UI, i18next."
-              ]
-            },
-            "teamwork": {
-              "title": "Ekip Çalışması ve İşbirliği",
-              "points": [
-                "Backend ekipleriyle entegrasyon ve müşteri odaklı çözümler için aktif bir şekilde çalıştım.",
-                "Tasarım ekipleriyle koordinasyon sağlayarak eksiklikleri hızlıca çözüme ulaştırdım."
-              ]
-            }
-          }
+        "technology": {
+          "title": "Teknoloji ve Geliştirme",
+          "points": [
+            "Modern araçlar ve teknolojiler: JavaScript, React.js, Typescript, Sass, Umbraco, C#, Styled Components, Material UI."
+          ]
+        },
+        "teamwork": {
+          "title": "Ekip Çalışması ve Liderlik",
+          "points": [
+            "Teknik ekipler arasında köprü görevi görerek iletişim ve iş birliğini güçlendirdim.",
+            "Proje süreçlerinde interaktif dokümantasyon hazırlayarak zaman yönetimini iyileştirdim."
+          ]
         }
-      },
-      "militaryServiceDescription":"Bedelli askerlik görevimi İzmir Karabağlar'da tamamladım."
-
-    
+      }
+    },
+    "kocsistem": {
+      "company": "KoçSistem",
+      "role": "Frontend Geliştirici",
+      "date": "1 Temmuz 2022 - 15 Kasım 2023",
+      "categories": {
+        "management": {
+          "title": "Proje Yönetimi ve İletişim",
+          "points": [
+            "React.js kullanarak şirket içi ve dışı uygulama projelerinde outsourced frontend developer olarak görev aldım.",
+            "Farklı ekiplerle uyumlu çalışarak tasarım eksikliklerini gideren ve proje süreçlerini hızlandıran çözümler geliştirdim."
+          ]
+        },
+        "projects": {
+          "title": "Projeler ve Sorumluluklar",
+          "points": [
+            "Workplace: Şirket içi kullanım için geliştirilen sosyal ağ benzeri bir platformun ön yüz geliştirmesini üstlendim.",
+            "Peoplise: İnsan kaynakları işe alım süreçlerini destekleyen, yüksek işlevsellik sunan bir platformun ön yüz geliştirmesine katkıda bulundum.",
+            "Koç Kariyerim: İş başvuruları ve kariyer yönetimi için geliştirilen bir platformun ek geliştirmeleri için ön yüz çalışmaları yaptım."
+          ]
+        },
+        "technology": {
+          "title": "Teknoloji ve Geliştirme",
+          "points": [
+            "Geliştirme sürecinde kullanılan modern araçlar: React.js, Context API, TypeScript, Material UI, i18next."
+          ]
+        },
+        "teamwork": {
+          "title": "Ekip Çalışması ve İşbirliği",
+          "points": [
+            "Backend ekipleriyle entegrasyon ve müşteri odaklı çözümler için aktif bir şekilde çalıştım.",
+            "Tasarım ekipleriyle koordinasyon sağlayarak eksiklikleri hızlıca çözüme ulaştırdım."
+          ]
+        }
+      }
+    }
+  },
+  "militaryServiceDescription": "Bedelli askerlik görevimi İzmir Karabağlar'da tamamladım."
 }
-  

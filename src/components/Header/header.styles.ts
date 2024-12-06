@@ -11,7 +11,9 @@ export const HeaderContainer = styled.header`
   padding: 16px 32px;
   background-color: ${({ theme }) => theme.colors.background};
   color: ${({ theme }) => theme.colors.text};
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 
   @media (max-width: 768px) {
     padding: 16px;
@@ -24,14 +26,17 @@ export const Logo = styled.div`
   font-family: ${({ theme }) => theme.typography[Typography.Body2].fontFamily};
   color: ${({ theme }) => theme.colors.text};
   cursor: pointer;
+  > a {
+    padding: 8px 0;
+  }
 `;
 
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
   margin-left: auto;
-  margin-right: 24px;
+  margin-right: 12px;
 
   &::after {
     content: "";
@@ -50,8 +55,8 @@ export const Nav = styled.nav`
 export const NavItem = styled.div`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.text};
-  font-size: ${({ theme }) => theme.typography[Typography.Body2].fontSize};
-  font-weight: ${({ theme }) => theme.typography[Typography.Body2].fontWeight};
+  font-size: ${({ theme }) => theme.typography[Typography.Body3].fontSize};
+  font-weight: ${({ theme }) => theme.typography[Typography.Body3].fontWeight};
   transition: color 0.3s ease;
   cursor: pointer;
   > a {
@@ -67,7 +72,7 @@ export const NavItem = styled.div`
 export const ActionGroup = styled.div`
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 
   @media (max-width: 768px) {
     display: none;
@@ -83,9 +88,11 @@ export const ThemeToggleButton = styled.div`
   color: ${({ theme }) => theme.colors.text};
   font-size: ${({ theme }) => theme.typography[Typography.Body2].fontSize};
   transition: color 0.3s ease;
-
   &:hover {
     color: ${({ theme }) => theme.colors.primary};
+  }
+  @media (max-width: 768px) {
+    padding: 8px 0;
   }
 `;
 
@@ -102,7 +109,9 @@ export const HamburgerMenu = styled.button`
   }
 `;
 
-export const MobileMenuOverlay = styled.div<{ isOpen: boolean }>`
+export const MobileMenuOverlay = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== "isOpen",
+})<{ isOpen: boolean }>`
   position: fixed;
   top: 0;
   left: 0;
@@ -111,11 +120,15 @@ export const MobileMenuOverlay = styled.div<{ isOpen: boolean }>`
   background: rgba(0, 0, 0, 0.5);
   opacity: ${({ isOpen }) => (isOpen ? 1 : 0)};
   visibility: ${({ isOpen }) => (isOpen ? "visible" : "hidden")};
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
   z-index: 999;
 `;
 
-export const MobileMenu = styled.div<{ $isOpen: boolean }>`
+export const MobileMenu = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== "$isOpen",
+})<{ $isOpen: boolean }>`
   position: fixed;
   top: 0;
   right: ${({ $isOpen }) => ($isOpen ? "0" : "-100%")};
@@ -128,7 +141,9 @@ export const MobileMenu = styled.div<{ $isOpen: boolean }>`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  transition: right 0.3s ease, opacity 0.3s ease;
+  transition:
+    right 0.3s ease,
+    opacity 0.3s ease;
   z-index: 1000;
 
   a {
@@ -148,6 +163,7 @@ export const CloseMenuButton = styled.button`
   cursor: pointer;
   font-size: 24px;
   color: ${({ theme }) => theme.colors.text};
+  padding: 8px 0;
 `;
 export const MobileMenuHeader = styled.div`
   display: flex;
@@ -161,7 +177,7 @@ export const MobileMenuHeader = styled.div`
 export const MobileMenuContent = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   padding: 16px 0;
   border-top: 1px solid ${({ theme }) => theme.colors.border};
   border-bottom: 1px solid ${({ theme }) => theme.colors.border};
@@ -173,20 +189,28 @@ export const MobileMenuContent = styled.div`
 export const MobileMenuFooter = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
   a {
     color: ${({ theme }) => theme.colors.buttonText};
+  }
+
+  @media (max-width: 768px) {
+    .download-cv {
+      margin-top: 16px;
+    }
   }
 `;
 export const LanguageContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+  padding: 8px 0;
 `;
 
 export const LanguageToggleButton = styled.div`
   color: ${({ theme }) => theme.colors.text};
   font-size: ${({ theme }) => theme.typography.Body2.fontSize};
   cursor: pointer;
+
   &:hover {
     scale: 1.1;
   }

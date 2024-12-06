@@ -50,9 +50,14 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
         {!isMenuOpen && (
           <>
             <Logo>
-            <Link to="showcase" smooth={true} duration={500} onClick={closeMenu}>
-              BK
-            </Link>
+              <Link
+                to="showcase"
+                smooth={true}
+                duration={500}
+                onClick={closeMenu}
+              >
+                BK
+              </Link>
             </Logo>
             <HamburgerMenu onClick={toggleMenu} aria-label="Open Menu">
               <HamburgerIcon />
@@ -118,7 +123,12 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
       <MobileMenu $isOpen={isMenuOpen}>
         <MobileMenuHeader>
           <Logo>
-            <Link to="showcase" smooth={true} duration={500} onClick={closeMenu}>
+            <Link
+              to="showcase"
+              smooth={true}
+              duration={500}
+              onClick={closeMenu}
+            >
               BK
             </Link>
           </Logo>
@@ -167,7 +177,7 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, themeMode }) => {
             </LanguageToggleButton>
           </LanguageContainer>
 
-          <Button isDownload href="/batu-kochan-cv.pdf" variant="default">
+          <Button className="download-cv" isDownload href="/batu-kochan-cv.pdf" variant="default">
             {t("downloadCv")}
           </Button>
         </MobileMenuFooter>

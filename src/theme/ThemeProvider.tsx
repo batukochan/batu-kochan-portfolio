@@ -9,7 +9,9 @@ interface ThemeProviderProps extends PropsWithChildren {
 const ThemeProvider: FC<ThemeProviderProps> = ({ children, themeMode }) => {
   const currentTheme = themeMode === "dark" ? darkTheme : lightTheme;
 
-  return <StyledThemeProvider theme={currentTheme}>{children}</StyledThemeProvider>;
+  return (
+    <StyledThemeProvider theme={currentTheme}>{children}</StyledThemeProvider>
+  );
 };
 
 export default ThemeProvider;

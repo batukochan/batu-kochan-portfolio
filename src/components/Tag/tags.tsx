@@ -1,5 +1,5 @@
 import React from "react";
-import {StyledTag}  from "./tags.styles";
+import { StyledTag } from "./tags.styles";
 import { TagProps } from "./types";
 
 const Tag: React.FC<TagProps> = ({ children, variant = "default" }) => {

@@ -24,8 +24,8 @@ export const StyledButton = styled.button<{
           color: ${theme.colors.buttonText};
 
           &:hover {
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Dört tarafında gölge */
-            transform: scale(1.02); /* Bir tık büyütme */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: scale(1.02);
           }
         `;
       default:

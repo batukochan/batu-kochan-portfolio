@@ -9,7 +9,16 @@ import {
 import { SkillsProps } from "./types";
 import Tag from "../Tag/tags";
 import Text from "../Text/text";
-import { GitIcon, JavascriptIcon, NextJsIcon, ReactIcon, SassIcon, SocketIcon, TailwindIcon, TypescriptIcon } from "../../assets/icons";
+import {
+  GitIcon,
+  JavascriptIcon,
+  NextJsIcon,
+  ReactIcon,
+  SassIcon,
+  SocketIcon,
+  TailwindIcon,
+  TypescriptIcon,
+} from "../../assets/icons";
 import { useTranslation } from "react-i18next";
 import { Typography } from "../../theme/typography";
 
@@ -30,13 +39,25 @@ const Skills: React.FC<SkillsProps> = () => {
       <SkillsContainer>
         <SkillsItem01>
           <Tag>{t("skillsTag")}</Tag>
-          <Text desktopTypography={Typography.Subtitle} mobileTypography={Typography.Subtitle} color="gray600">{t("skillsDesc")}</Text>
+          <Text
+            desktoptypography={Typography.Subtitle}
+            mobiletypography={Typography.Subtitle}
+            color="gray600"
+          >
+            {t("skillsDesc")}
+          </Text>
         </SkillsItem01>
         <SkillsItem02>
-        {skillsData.map((skill, index) => (
+          {skillsData.map((skill, index) => (
             <SkillsUnit01 key={index}>
-             {skill.icon}
-              <Text desktopTypography={Typography.Body2} mobileTypography={Typography.Body3} color="gray600">{skill.name}</Text>
+              {skill.icon}
+              <Text
+                desktoptypography={Typography.Body2}
+                mobiletypography={Typography.Body3}
+                color="gray600"
+              >
+                {skill.name}
+              </Text>
             </SkillsUnit01>
           ))}
         </SkillsItem02>

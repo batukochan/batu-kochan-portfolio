@@ -45,8 +45,8 @@ const Footer: React.FC<FooterProps> = () => {
         <FooterItem01 className="c-item-01">
           <Tag>{t("footerTag")}</Tag>
           <Text
-            desktopTypography={Typography.Subtitle}
-            mobileTypography={Typography.Subtitle}
+            desktoptypography={Typography.Subtitle}
+            mobiletypography={Typography.Subtitle}
             color="gray600"
           >
             {t("footerInfo")}
@@ -59,8 +59,8 @@ const Footer: React.FC<FooterProps> = () => {
               <InboxIcon />
             </a>
             <Text
-              desktopTypography={Typography.Heading3Desktop}
-              mobileTypography={Typography.Body2}
+              desktoptypography={Typography.Heading3Desktop}
+              mobiletypography={Typography.Body2}
             >
               batukochan@icloud.com
             </Text>
@@ -73,8 +73,8 @@ const Footer: React.FC<FooterProps> = () => {
               <PhoneIcon />
             </a>
             <Text
-              desktopTypography={Typography.Heading3Desktop}
-              mobileTypography={Typography.Body2}
+              desktoptypography={Typography.Heading3Desktop}
+              mobiletypography={Typography.Body2}
             >
               05340326426
             </Text>
@@ -84,8 +84,8 @@ const Footer: React.FC<FooterProps> = () => {
 
         <FooterItem01 className="c-item-03">
           <Text
-            desktopTypography={Typography.Body1}
-            mobileTypography={Typography.Body2}
+            desktoptypography={Typography.Body1}
+            mobiletypography={Typography.Body2}
             color="gray600"
           >
             {t("footerIconsDesc")}
@@ -114,8 +114,8 @@ const Footer: React.FC<FooterProps> = () => {
       <PreFooter className="c-item-03">
         <CopyrightIcon />
         <Text
-          desktopTypography={Typography.Body2}
-          mobileTypography={Typography.Body3}
+          desktoptypography={Typography.Body2}
+          mobiletypography={Typography.Body3}
           color="gray600"
         >
           {t("footerCopywrite")}
