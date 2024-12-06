@@ -33,15 +33,15 @@ const Showcase: React.FC<ShowcaseProps> = ({
       <TextSection>
         <TextContainer>
           <Text
-            desktopTypography={Typography.Heading1Desktop}
-            mobileTypography={Typography.Heading1Mobile}
+            desktoptypography={Typography.Heading1Desktop}
+            mobiletypography={Typography.Heading1Mobile}
             color="gray900"
           >
             {t("showcaseTitle")} {name}
           </Text>
           <Text
-            desktopTypography={Typography.Body1}
-            mobileTypography={Typography.Body2}
+            desktoptypography={Typography.Body1}
+            mobiletypography={Typography.Body2}
             color="gray600"
           >
             {description}
@@ -50,9 +50,10 @@ const Showcase: React.FC<ShowcaseProps> = ({
 
         <InfoSection>
           <Text
-            desktopTypography={Typography.Body1}
-            mobileTypography={Typography.Body2}
+            desktoptypography={Typography.Body1}
+            mobiletypography={Typography.Body2}
             color="gray600"
+            as="div"
           >
             <IconWrapper>
               <LocationIcon />
@@ -60,8 +61,8 @@ const Showcase: React.FC<ShowcaseProps> = ({
             {location}
           </Text>
           <Text
-            desktopTypography={Typography.Body1}
-            mobileTypography={Typography.Body2}
+            desktoptypography={Typography.Body1}
+            mobiletypography={Typography.Body2}
             color="gray600"
             bullet
           >
@@ -93,7 +94,7 @@ const Showcase: React.FC<ShowcaseProps> = ({
         </SocialIcons>
       </TextSection>
       <AvatarWrapper>
-        <img src={avatar} alt={name} loading="lazy"/>
+        <img src={avatar} alt={name} loading="lazy" />
       </AvatarWrapper>
     </ShowcaseContainer>
   );

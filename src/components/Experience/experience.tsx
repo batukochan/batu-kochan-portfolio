@@ -61,8 +61,8 @@ const Experience: React.FC<ExperienceProps> = () => {
         <ExperienceItem01>
           <Tag>{t("experienceObj.tag")}</Tag>
           <Text
-            desktopTypography={Typography.Subtitle}
-            mobileTypography={Typography.Subtitle}
+            desktoptypography={Typography.Subtitle}
+            mobiletypography={Typography.Subtitle}
             color="gray600"
           >
             {t("experienceObj.description")}
@@ -75,8 +75,8 @@ const Experience: React.FC<ExperienceProps> = () => {
             <ExperienceUnit01>{experience.company}</ExperienceUnit01>
             <ExperienceUnit02>
               <Text
-                desktopTypography={Typography.Subtitle}
-                mobileTypography={Typography.Subtitle}
+                desktoptypography={Typography.Subtitle}
+                mobiletypography={Typography.Subtitle}
                 color="gray900"
               >
                 {experience.role}
@@ -89,8 +89,8 @@ const Experience: React.FC<ExperienceProps> = () => {
                     return (
                       <React.Fragment key={idx}>
                         <Text
-                          desktopTypography={Typography.Body1}
-                          mobileTypography={Typography.Body2}
+                          desktoptypography={Typography.Body1}
+                          mobiletypography={Typography.Body2}
                           color="gray800"
                         >
                           {category.title}
@@ -98,8 +98,8 @@ const Experience: React.FC<ExperienceProps> = () => {
                         {category.points.map((point, pointIdx) => (
                           <Text
                             key={pointIdx}
-                            desktopTypography={Typography.Body1}
-                            mobileTypography={Typography.Body2}
+                            desktoptypography={Typography.Body1}
+                            mobiletypography={Typography.Body2}
                             color="gray600"
                             bullet
                           >
@@ -111,8 +111,8 @@ const Experience: React.FC<ExperienceProps> = () => {
                   })
                 ) : (
                   <Text
-                    desktopTypography={Typography.Body1}
-                    mobileTypography={Typography.Body2}
+                    desktoptypography={Typography.Body1}
+                    mobiletypography={Typography.Body2}
                     color="gray600"
                     bullet
                   >
@@ -123,8 +123,8 @@ const Experience: React.FC<ExperienceProps> = () => {
             </ExperienceUnit02>
             <ExperienceUnit03>
               <Text
-                desktopTypography={Typography.Body2}
-                mobileTypography={Typography.Body3}
+                desktoptypography={Typography.Body2}
+                mobiletypography={Typography.Body3}
                 color="gray700"
               >
                 {experience.date}

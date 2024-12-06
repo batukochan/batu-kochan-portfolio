@@ -1,10 +1,23 @@
 import React from "react";
 import { StyledText, BulletIconWrapper, IconWrapper } from "./text.styles.ts";
-import {TextProps} from "./types.ts"
+import { TextProps } from "./types.ts";
 
-const Text: React.FC<TextProps> = ({ children, desktopTypography,mobileTypography, color, bullet, icon }) => {
+const Text: React.FC<TextProps> = ({
+  children,
+  desktoptypography,
+  mobiletypography,
+  color,
+  bullet,
+  icon,
+  as = "p",
+}) => {
   return (
-    <StyledText desktopTypography={desktopTypography} mobileTypography={mobileTypography} color={color}>
+    <StyledText
+      as={as}
+      desktoptypography={desktoptypography}
+      mobiletypography={mobiletypography}
+      color={color}
+    >
       {bullet && <BulletIconWrapper>&#8226;</BulletIconWrapper>}
       {icon && <IconWrapper>{icon}</IconWrapper>}
       {children}

@@ -1,10 +1,9 @@
 type Fonts = {
-    inter: string;
-  };
-  
-  const fonts: Fonts = {
-    inter: 'Inter',
-  };
-  
-  export default fonts;
-  
+  inter: string;
+};
+
+const fonts: Fonts = {
+  inter: "Inter",
+};
+
+export default fonts;

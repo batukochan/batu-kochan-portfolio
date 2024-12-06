@@ -1,5 +1,4 @@
 export interface InformationProps {
-    image?: string;
-    id?: string;
-  }
-  
+  image?: string;
+  id?: string;
+}

@@ -1,124 +1,122 @@
 {
-    "about": "About",
-    "skills": "Skills",
-    "experience": "Experience",
-    "contact": "Contact",
-    "downloadCv": "Download CV",
-    "toggleTheme": "Dark/Light Mode",
-    "languageChange": "Change Language",
-    "showcaseTitle": "Hi, I'm ",
-    "showcaseDesc": "I'm a frontend developer with 3 years of experience, focusing on building responsive, modern, and user-centered web applications. I have a passion for crafting seamless digital experiences and continually improving my skills.",
-    "showcaseBulletDesc":"Available for new projects",
-    "infoTitle":"My Journey",
-    "infoDesc": [
-      "I'm a passionate front-end developer specializing in crafting responsive, modern, and user-centric web applications. With a strong focus on visual design and technical performance, I strive to create seamless digital experiences that are both functional and visually appealing.",
-      "My journey in web development began 3 years ago when I discovered my passion for coding. Since then, I've honed my skills in React.js, TypeScript, and other modern front-end technologies. I enjoy taking on challenging projects, continuously learning new frameworks, and staying updated with the latest industry trends.",
-      "As a progressive thinker, I thrive in collaborative environments and enjoy managing projects end-to-end — from conceptualization to deployment. My experience includes leading front-end teams, working on responsive designs, and optimizing performance for diverse projects.",
-      "When I’m not coding, you can find me exploring new technologies, playing the electric guitar, or enjoying outdoor activities. Feel free to connect with me on GitHub or LinkedIn to learn more about my work and interests."
-    ],
-    "quickInfo": [
-      "Electrical Engineer",
-      "3 years frontend experience",
-      "Team leadership",
-      "Tech enthusiast",
-      "Responsive design expertise",
-      "Corporate project experience"
-    ],
-    "footerTag":"Get in touch",
-    "footerInfo":"Let’s connect! Whether you have a project in mind, a question to ask, or just want to say hello, feel free to reach out.",
-    "footerIconsDesc":"You may also find me on these platforms!",
-    "footerCopywrite":"2024 | Coded with care by Batuhan Koçhan",
-    "copiedSuccess":"Copying successful!",
-    "copiedError":"An error occurred while copying!",
-    "skillsTag":"Skills",
-    "skillsDesc":"Here are the skills, tools, and technologies I’m great at",
-    "experienceTag":"Experience",
-    "experienceDesc":"Here are the experiences and projects I’ve worked on",
-      "experienceObj": {
-        "tag": "Experience",
-        "description": "Here are the experiences and projects I’ve worked on.",
-        "tsk": {
-  "company": "Career Break",
-  "role": "Mandatory National Service",
-  "date": "21 September 2024 - 21 October 2024",
-  "categories": {}
-},
-        "feux": {
-          "company": "Feux Digital",
-          "role": "Frontend Developer",
-          "date": "14 Feb 2022 - 16 Sep 2024",
-          "categories": {
-            "management": {
-              "title": "Project Management and Communication",
-              "points": [
-                "Led frontend development for Kale.com.tr, Kalekim, and Bi’Boya.",
-                "Collaborated with backend teams to ensure timely project delivery."
-              ]
-            },
-            "projects": {
-              "title": "Projects and Responsibilities",
-              "points": [
-                "TEMA Vakfı: Developed a responsive and eco-friendly website using JavaScript, Sass, and Umbraco.",
-                "Türkiye Bağımlılıkla Mücadele Vakfı: Delivered a user-friendly interface for awareness.",
-                "Kontrolmatik Technologies: Built an interactive platform for global projects.",
-                "FibaBank: Supported the AlışGidiş project with JavaScript and Sass.",
-                "Bi’Boya: Participated in debugging and new development processes for the existing project.",
-                "Kalekim: Delivered a dynamic and performance-oriented web solution tailored to corporate needs.",
-                "Kale Holding: Updated and managed large-scale corporate websites using JavaScript and Sass."
-              ]
-            },
-            "technology": {
-              "title": "Technology and Development",
-              "points": [
-                "Modern tools and technologies: JavaScript, React.js, Typescript, Sass, Umbraco, C#, Styled Components, Material UI."
-              ]
-            },
-            "teamwork": {
-              "title": "Teamwork and Leadership",
-              "points": [
-                "Acted as a bridge between technical teams to enhance communication and collaboration.",
-                "Prepared interactive documentation during project processes to improve time management."
-              ]
-            }
-          }
+  "about": "About",
+  "skills": "Skills",
+  "experience": "Experience",
+  "contact": "Contact",
+  "downloadCv": "Download CV",
+  "toggleTheme": "Dark/Light Mode",
+  "languageChange": "Change Language",
+  "showcaseTitle": "Hi, I'm ",
+  "showcaseDesc": "I'm a frontend developer with 3 years of experience, focusing on building responsive, modern, and user-centered web applications. I have a passion for crafting seamless digital experiences and continually improving my skills.",
+  "showcaseBulletDesc": "Available for new projects",
+  "infoTitle": "My Journey",
+  "infoDesc": [
+    "I'm a passionate front-end developer specializing in crafting responsive, modern, and user-centric web applications. With a strong focus on visual design and technical performance, I strive to create seamless digital experiences that are both functional and visually appealing.",
+    "My journey in web development began 3 years ago when I discovered my passion for coding. Since then, I've honed my skills in React.js, TypeScript, and other modern front-end technologies. I enjoy taking on challenging projects, continuously learning new frameworks, and staying updated with the latest industry trends.",
+    "As a progressive thinker, I thrive in collaborative environments and enjoy managing projects end-to-end — from conceptualization to deployment. My experience includes leading front-end teams, working on responsive designs, and optimizing performance for diverse projects.",
+    "When I’m not coding, you can find me exploring new technologies, playing the electric guitar, or enjoying outdoor activities. Feel free to connect with me on GitHub or LinkedIn to learn more about my work and interests."
+  ],
+  "quickInfo": [
+    "Electrical Engineer",
+    "3 years frontend experience",
+    "Team leadership",
+    "Tech enthusiast",
+    "Responsive design expertise",
+    "Corporate project experience"
+  ],
+  "footerTag": "Get in touch",
+  "footerInfo": "Let’s connect! Whether you have a project in mind, a question to ask, or just want to say hello, feel free to reach out.",
+  "footerIconsDesc": "You may also find me on these platforms!",
+  "footerCopywrite": "2024 | Coded with care by Batuhan Koçhan",
+  "copiedSuccess": "Copying successful!",
+  "copiedError": "An error occurred while copying!",
+  "skillsTag": "Skills",
+  "skillsDesc": "Here are the skills, tools, and technologies I’m great at",
+  "experienceTag": "Experience",
+  "experienceDesc": "Here are the experiences and projects I’ve worked on",
+  "experienceObj": {
+    "tag": "Experience",
+    "description": "Here are the experiences and projects I’ve worked on.",
+    "tsk": {
+      "company": "Career Break",
+      "role": "Mandatory National Service",
+      "date": "21 September 2024 - 21 October 2024",
+      "categories": {}
+    },
+    "feux": {
+      "company": "Feux Digital",
+      "role": "Frontend Developer",
+      "date": "14 Feb 2022 - 16 Sep 2024",
+      "categories": {
+        "management": {
+          "title": "Project Management and Communication",
+          "points": [
+            "Led frontend development for Kale.com.tr, Kalekim, and Bi’Boya.",
+            "Collaborated with backend teams to ensure timely project delivery."
+          ]
         },
-        "kocsistem": {
-          "company": "KoçSistem",
-          "role": "Frontend Developer",
-          "date": "1 Jul 2022 - 15 Nov 2023",
-          "categories": {
-            "management": {
-              "title": "Project Management and Communication",
-              "points": [
-                "Worked as an outsourced frontend developer for internal and external application projects using React.js.",
-                "Provided solutions for design gaps, accelerating project processes."
-              ]
-            },
-            "projects": {
-              "title": "Projects and Responsibilities",
-              "points": [
-                "Workplace: Developed the frontend of a corporate social networking platform.",
-                "Peoplise: Contributed to the frontend development of a high-functionality recruitment platform.",
-                "Koç Kariyerim: Worked on additional frontend development for the career management platform."
-              ]
-            },
-            "technology": {
-              "title": "Technology and Development",
-              "points": [
-                "Modern tools and technologies used during development: React.js, Context API, TypeScript, Material UI, i18next."
-              ]
-            },
-            "teamwork": {
-              "title": "Teamwork and Collaboration",
-              "points": [
-                "Actively collaborated with backend teams for integrations and customer-focused solutions.",
-                "Coordinated with design teams to quickly address and resolve deficiencies."
-              ]
-            }
-          }
+        "projects": {
+          "title": "Projects and Responsibilities",
+          "points": [
+            "TEMA Vakfı: Developed a responsive and eco-friendly website using JavaScript, Sass, and Umbraco.",
+            "Türkiye Bağımlılıkla Mücadele Vakfı: Delivered a user-friendly interface for awareness.",
+            "Kontrolmatik Technologies: Built an interactive platform for global projects.",
+            "FibaBank: Supported the AlışGidiş project with JavaScript and Sass.",
+            "Bi’Boya: Participated in debugging and new development processes for the existing project.",
+            "Kalekim: Delivered a dynamic and performance-oriented web solution tailored to corporate needs.",
+            "Kale Holding: Updated and managed large-scale corporate websites using JavaScript and Sass."
+          ]
+        },
+        "technology": {
+          "title": "Technology and Development",
+          "points": [
+            "Modern tools and technologies: JavaScript, React.js, Typescript, Sass, Umbraco, C#, Styled Components, Material UI."
+          ]
+        },
+        "teamwork": {
+          "title": "Teamwork and Leadership",
+          "points": [
+            "Acted as a bridge between technical teams to enhance communication and collaboration.",
+            "Prepared interactive documentation during project processes to improve time management."
+          ]
         }
-      },
-      "militaryServiceDescription":"I completed my short-term military service in İzmir Karabağlar."
-    
+      }
+    },
+    "kocsistem": {
+      "company": "KoçSistem",
+      "role": "Frontend Developer",
+      "date": "1 Jul 2022 - 15 Nov 2023",
+      "categories": {
+        "management": {
+          "title": "Project Management and Communication",
+          "points": [
+            "Worked as an outsourced frontend developer for internal and external application projects using React.js.",
+            "Provided solutions for design gaps, accelerating project processes."
+          ]
+        },
+        "projects": {
+          "title": "Projects and Responsibilities",
+          "points": [
+            "Workplace: Developed the frontend of a corporate social networking platform.",
+            "Peoplise: Contributed to the frontend development of a high-functionality recruitment platform.",
+            "Koç Kariyerim: Worked on additional frontend development for the career management platform."
+          ]
+        },
+        "technology": {
+          "title": "Technology and Development",
+          "points": [
+            "Modern tools and technologies used during development: React.js, Context API, TypeScript, Material UI, i18next."
+          ]
+        },
+        "teamwork": {
+          "title": "Teamwork and Collaboration",
+          "points": [
+            "Actively collaborated with backend teams for integrations and customer-focused solutions.",
+            "Coordinated with design teams to quickly address and resolve deficiencies."
+          ]
+        }
+      }
+    }
+  },
+  "militaryServiceDescription": "I completed my short-term military service in İzmir Karabağlar."
 }
-  

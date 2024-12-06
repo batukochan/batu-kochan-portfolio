@@ -24,12 +24,12 @@ const Information: React.FC<InformationProps> = () => {
       <Tag> {t("about")}</Tag>
       <InformationItem>
         <ImageWrapper>
-          <img src={InformationPhoto} alt="Personal" loading="lazy"/>
+          <img src={InformationPhoto} alt="Personal" loading="lazy" />
         </ImageWrapper>
         <ContentWrapper>
           <Text
-            desktopTypography={Typography.Heading3Desktop}
-            mobileTypography={Typography.Heading3Mobile}
+            desktoptypography={Typography.Heading3Desktop}
+            mobiletypography={Typography.Heading3Mobile}
             color="gray900"
           >
             {t("infoTitle")}
@@ -37,8 +37,8 @@ const Information: React.FC<InformationProps> = () => {
           {infoDesc.map((paragraph: string, index: number) => (
             <Text
               key={index}
-              desktopTypography={Typography.Body1}
-              mobileTypography={Typography.Body2}
+              desktoptypography={Typography.Body1}
+              mobiletypography={Typography.Body2}
               color="gray600"
             >
               {paragraph}
@@ -49,8 +49,8 @@ const Information: React.FC<InformationProps> = () => {
             {quickInfo.map((info, index) => (
               <QuickInfoItem key={index}>
                 <Text
-                  desktopTypography={Typography.Body2}
-                  mobileTypography={Typography.Body3}
+                  desktoptypography={Typography.Body2}
+                  mobiletypography={Typography.Body3}
                   color="gray600"
                   bullet
                 >

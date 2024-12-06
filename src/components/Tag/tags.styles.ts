@@ -13,5 +13,7 @@ export const StyledTag = styled.div<{ variant: "default" | "dark" }>`
   color: ${({ theme }) => theme.colors.gray600};
   background-color: ${({ theme }) => theme.colors.gray200};
 
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 `;

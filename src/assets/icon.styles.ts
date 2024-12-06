@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const StyledIcon = styled.svg`
   display: flex;
-  padding:0;
+  padding: 0;
   transition: all 0.3s ease;
 
   fill: ${({ theme }) => theme.colors.iconColor};
-   path {
+  path {
     stroke: ${({ theme }) => theme.colors.iconStroke};
   }
 

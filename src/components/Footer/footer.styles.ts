@@ -4,7 +4,9 @@ export const StyledFooter = styled.section`
   display: block;
   color: ${({ theme }) => theme.colors.text};
   background-color: ${({ theme }) => theme.colors.background};
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 `;
 export const FooterContainer = styled.div`
   display: flex;
@@ -39,8 +41,8 @@ export const FooterUnit01 = styled.div`
   align-items: center;
   gap: 8px;
 
-  svg{
-  cursor:pointer;
+  svg {
+    cursor: pointer;
   }
 `;
 export const PreFooter = styled.div`

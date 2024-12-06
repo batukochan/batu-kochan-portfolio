@@ -1,7 +1,6 @@
 import React from "react";
 
 export interface FooterProps {
-    children?: React.ReactNode;
-    id?: string;
-  }
-  
+  children?: React.ReactNode;
+  id?: string;
+}

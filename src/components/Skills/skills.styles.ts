@@ -4,7 +4,9 @@ export const StyledSkills = styled.section`
   display: block;
   color: ${({ theme }) => theme.colors.text};
   background-color: ${({ theme }) => theme.colors.background};
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
   padding: 96px 0px;
   @media (max-width: 768px) {
     padding: 64px 0px;
@@ -22,7 +24,7 @@ export const SkillsItem01 = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align:center;
+  text-align: center;
   gap: 16px;
 `;
 

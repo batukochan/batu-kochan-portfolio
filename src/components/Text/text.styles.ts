@@ -3,8 +3,9 @@ import { Typography } from "../../theme/typography";
 import { Colors } from "../../theme/colors";
 
 interface StyledTextProps {
-  desktopTypography?: Typography;
-  mobileTypography?: Typography;
+  as?: keyof JSX.IntrinsicElements; 
+  desktoptypography?: Typography;
+  mobiletypography?: Typography;
   color?: keyof Colors;
 }
 
@@ -14,49 +15,49 @@ export const StyledText = styled.p<StyledTextProps>`
   gap: 8px;
   margin: 0;
 
-  font-family: ${({ theme, desktopTypography }) =>
-    desktopTypography
-      ? theme.typography[desktopTypography]?.fontFamily
+  font-family: ${({ theme, desktoptypography }) =>
+    desktoptypography
+      ? theme.typography[desktoptypography]?.fontFamily
       : theme.typography.Body1.fontFamily};
-  font-size: ${({ theme, desktopTypography }) =>
-    desktopTypography
-      ? theme.typography[desktopTypography]?.fontSize
+  font-size: ${({ theme, desktoptypography }) =>
+    desktoptypography
+      ? theme.typography[desktoptypography]?.fontSize
       : theme.typography.Body1.fontSize};
-  font-weight: ${({ theme, desktopTypography }) =>
-    desktopTypography
-      ? theme.typography[desktopTypography]?.fontWeight
+  font-weight: ${({ theme, desktoptypography }) =>
+    desktoptypography
+      ? theme.typography[desktoptypography]?.fontWeight
       : theme.typography.Body1.fontWeight};
-  line-height: ${({ theme, desktopTypography }) =>
-    desktopTypography
-      ? theme.typography[desktopTypography]?.lineHeight
+  line-height: ${({ theme, desktoptypography }) =>
+    desktoptypography
+      ? theme.typography[desktoptypography]?.lineHeight
       : theme.typography.Body1.lineHeight};
-  letter-spacing: ${({ theme, desktopTypography }) =>
-    desktopTypography
-      ? theme.typography[desktopTypography]?.letterSpacing
+  letter-spacing: ${({ theme, desktoptypography }) =>
+    desktoptypography
+      ? theme.typography[desktoptypography]?.letterSpacing
       : theme.typography.Body1.letterSpacing};
 
   color: ${({ theme, color }) => (color ? theme.colors[color] : theme.colors.text)};
 
   @media (max-width: 768px) {
-    font-family: ${({ theme, mobileTypography }) =>
-      mobileTypography
-        ? theme.typography[mobileTypography]?.fontFamily
+    font-family: ${({ theme, mobiletypography }) =>
+      mobiletypography
+        ? theme.typography[mobiletypography]?.fontFamily
         : theme.typography.Body1.fontFamily};
-    font-size: ${({ theme, mobileTypography }) =>
-      mobileTypography
-        ? theme.typography[mobileTypography]?.fontSize
+    font-size: ${({ theme, mobiletypography }) =>
+      mobiletypography
+        ? theme.typography[mobiletypography]?.fontSize
         : theme.typography.Body1.fontSize};
-    font-weight: ${({ theme, mobileTypography }) =>
-      mobileTypography
-        ? theme.typography[mobileTypography]?.fontWeight
+    font-weight: ${({ theme, mobiletypography }) =>
+      mobiletypography
+        ? theme.typography[mobiletypography]?.fontWeight
         : theme.typography.Body1.fontWeight};
-    line-height: ${({ theme, mobileTypography }) =>
-      mobileTypography
-        ? theme.typography[mobileTypography]?.lineHeight
+    line-height: ${({ theme, mobiletypography }) =>
+      mobiletypography
+        ? theme.typography[mobiletypography]?.lineHeight
         : theme.typography.Body1.lineHeight};
-    letter-spacing: ${({ theme, mobileTypography }) =>
-      mobileTypography
-        ? theme.typography[mobileTypography]?.letterSpacing
+    letter-spacing: ${({ theme, mobiletypography }) =>
+      mobiletypography
+        ? theme.typography[mobiletypography]?.letterSpacing
         : theme.typography.Body1.letterSpacing};
   }
 `;
